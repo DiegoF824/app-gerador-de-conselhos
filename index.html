@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>App Gerador de conselhos</title>
+
+    <link rel="shortcut icon" href="src/images/favicon-32x32.png" type="image/x-icon">
+    
+    <link rel="stylesheet" href="src/CSS/reset.css" />
+    <link rel="stylesheet" href="src/CSS/style.css" />
+    <link rel="stylesheet" href="src/CSS/variables.css" />
+  </head>
+  <body>
+    <main class="container">
+        <div class="card">
+                <h2 class="numero-conselho" id="conselho-number"></h2>
+
+                <p class="conselho" id="conselho"></p>
+
+                <picture>
+                    <source media="(min-width:426px)" srcset="src/images/pattern-divider-desktop.svg">
+
+                    <img src="src/images/pattern-divider-mobile.svg" alt="divisor">
+                </picture>
+
+            <button class="botao" id="botao">
+              <img src="src/images/icon-dice.svg" alt="dado">
+            </button>
+        </div>
+    </main>
+
+    <script src="src/js/conselho.js"></script>
+  </body>
+</html>
